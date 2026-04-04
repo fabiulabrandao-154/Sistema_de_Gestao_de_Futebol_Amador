@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutGestão - Sistema de Gerenciamento de Peladas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="auth-container" class="auth-container">
+            <div class="auth-card">
+                <h1 class="logo">FutGestão</h1>
+                <p class="subtitle">Sistema de Gerenciamento de Peladas</p>
+
+                <div id="login-form" class="form-container">
+                    <h2>Login</h2>
+                    <form id="loginForm">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" id="login-email" required placeholder="seu@email.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Senha</label>
+                            <input type="password" id="login-password" required placeholder="••••••••">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                        <p class="switch-form">
+                            Não tem conta? <a href="#" id="show-register">Cadastre-se</a>
+                        </p>
+                    </form>
+                </div>
+
+                <div id="register-form" class="form-container" style="display: none;">
+                    <h2>Cadastro</h2>
+                    <form id="registerForm">
+                        <div class="input-group">
+                            <label>Nome Completo</label>
+                            <input type="text" id="register-name" required placeholder="Seu nome">
+                        </div>
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" id="register-email" required placeholder="seu@email.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Senha (mínimo 7 caracteres)</label>
+                            <input type="password" id="register-password" required minlength="7" placeholder="••••••••">
+                        </div>
+                        <div class="input-group">
+                            <label>Confirmar Senha</label>
+                            <input type="password" id="register-confirm" required placeholder="••••••••">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        <p class="switch-form">
+                            Já tem conta? <a href="#" id="show-login">Faça login</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-container" class="main-container" style="display: none;">
+            <nav class="sidebar">
+                <div class="sidebar-header">
+                    <h1 class="logo">FutGestão</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#" data-page="dashboard" class="nav-link active">
+                        <span class="icon">📊</span> Dashboard
+                    </a></li>
+                    <li><a href="#" data-page="players" class="nav-link">
+                        <span class="icon">👥</span> Jogadores
+                    </a></li>
+                    <li><a href="#" data-page="matches" class="nav-link">
+                        <span class="icon">🏆</span> Peladas
+                    </a></li>
+                    <li><a href="#" data-page="profile" class="nav-link">
+                        <span class="icon">👤</span> Perfil
+                    </a></li>
+                </ul>
+                <div class="sidebar-footer">
+                    <div class="user-info">
+                        <div class="user-avatar" id="user-avatar">U</div>
+                        <div class="user-details">
+                            <div class="user-name" id="user-name">Usuário</div>
+                            <div class="user-email" id="user-email">email@email.com</div>
+                        </div>
+                    </div>
+                    <button id="logout-btn" class="btn btn-danger">Sair</button>
+                </div>
+            </nav>
+
+            <main class="content">
+                <div id="page-content"></div>
+            </main>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="https://cdn.socket.io/4.8.3/socket.io.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
