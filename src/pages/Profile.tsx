@@ -32,7 +32,7 @@ const Profile = () => {
   const handleUpdatePassword = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (password.length < 7) {
+    if (password.length <= 7) {
       toast.error("A senha deve ter no mínimo 7 caracteres.");
       return;
     }
@@ -73,7 +73,7 @@ const Profile = () => {
             <p className="text-sm text-gray-500">{user?.email}</p>
             <div className="mt-6 pt-6 border-t border-gray-100">
               <p className="text-xs text-gray-400 uppercase font-bold tracking-wider">Organizador desde</p>
-              <p className="text-sm font-medium text-gray-700 mt-1">Abril 2024</p>
+              <p className="text-sm font-medium text-gray-700 mt-1">Abril 2026</p>
             </div>
           </div>
         </div>
