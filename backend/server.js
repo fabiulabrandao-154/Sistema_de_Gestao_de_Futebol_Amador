@@ -15,7 +15,7 @@ const io = new Server(httpServer, {
 });
 
 const PORT = process.env.PORT || 3000;
-const JWT_SECRET = "futgestao-secret-key-2024";
+const JWT_SECRET = "futgestao-secret-key-2026";
 
 app.use(cors());
 app.use(express.json());
