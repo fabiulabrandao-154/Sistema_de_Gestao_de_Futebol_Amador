@@ -5,11 +5,11 @@ Sistema completo para organização e gestão de peladas de futebol, desenvolvid
 ## 👥 Equipe de Desenvolvimento
 
 ### Frontend
-- **Fabíula de Araujo Brandão** - Desenvolvedor Frontend
+- **Fabíula de Araujo Brandão** - Desenvolvedora Frontend
   - Responsável por: Interface HTML/CSS/JS, experiência do usuário, design responsivo
 
 ### Backend
-- **Laura Carolina** - Desenvolvedor Backend Lead
+- **Laura Carolina** - Desenvolvedora Backend Lead
   - Responsável por: Arquitetura do servidor, APIs REST, autenticação JWT
 
 - **Vinícius Abreu Vasconcelos dos Santos** - Desenvolvedor Backend
