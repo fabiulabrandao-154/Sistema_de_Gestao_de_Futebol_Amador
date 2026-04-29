@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 # Use a variável de ambiente para segurança (aquela que apareceu no seu terminal)
 # Se preferir testar direto, substitua pelo link com a senha:
-uri = "mongodb+srv://fabiulabrandao15_db_user:futgestao2026@cluster0.cislst7.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodbmongodb+srv://fabiulabrandao15_db_user:futgestao2026@cluster0.cislst7.mongodb.net/?appName=Cluster0"
 
 def get_database():
     try:
