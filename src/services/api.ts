@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api", MONGODB_URI="mongodb+srv://fabiulabrandao15_db_user:futgestao2026@cluster0.cislst7.mongodb.net/"
+  baseURL: "/api", 
 });
 
 api.interceptors.request.use((config) => {
