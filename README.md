@@ -247,8 +247,8 @@ Crie o arquivo `.env`:
 
 ```env
 # MongoDB
-MONGODB_URI=mongodb+srv://fabiulabrandao15_db_user:hGT5wxGilTYu6D9l@cluster0.cislst7.mongodb.net/
-MONGODB_NAME=futgestao
+MONGODB_URI=
+MONGODB_NAME=
 
 # Prisma (Opcional)
 DATABASE_URL="postgresql://user:password@localhost:5432/futgestao"
