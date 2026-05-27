@@ -1,0 +1,252 @@
+{
+  "jogadores": [
+    {
+      "nome": "Alex Sandro",
+      "nivel_estrelas": 4,
+      "ativo": true,
+      "id": "ujqu26pgy",
+      "createdAt": "2026-05-13T18:10:31.401Z"
+    },
+    {
+      "nome": "A",
+      "nivel_estrelas": 5,
+      "ativo": true,
+      "id": "p4qlk7hlp",
+      "createdAt": "2026-05-13T18:10:39.385Z"
+    },
+    {
+      "nome": "H",
+      "nivel_estrelas": 4,
+      "ativo": true,
+      "id": "1x2zu3iw0",
+      "createdAt": "2026-05-13T18:10:47.530Z"
+    },
+    {
+      "nome": "BRUNO",
+      "nivel_estrelas": 3.5,
+      "ativo": true,
+      "id": "mid3155q8",
+      "createdAt": "2026-05-13T18:10:56.881Z"
+    },
+    {
+      "nome": "O",
+      "nivel_estrelas": 3,
+      "ativo": true,
+      "id": "tc9grs0g4",
+      "createdAt": "2026-05-13T18:11:03.265Z"
+    },
+    {
+      "nome": "N",
+      "nivel_estrelas": 3,
+      "ativo": true,
+      "id": "l7a8mnvlk",
+      "createdAt": "2026-05-13T18:11:08.329Z"
+    },
+    {
+      "nome": "G",
+      "nivel_estrelas": 3,
+      "ativo": true,
+      "id": "xdx1zl4bs",
+      "createdAt": "2026-05-13T18:11:13.626Z"
+    },
+    {
+      "nome": "J",
+      "nivel_estrelas": 4,
+      "ativo": true,
+      "id": "mgo5bd7q0",
+      "createdAt": "2026-05-13T18:11:21.066Z"
+    },
+    {
+      "nome": "O",
+      "nivel_estrelas": 4,
+      "ativo": true,
+      "id": "rv5b9x3v7",
+      "createdAt": "2026-05-13T18:11:29.538Z"
+    },
+    {
+      "nome": "PP",
+      "nivel_estrelas": 4.5,
+      "ativo": true,
+      "id": "tdwrxeksd",
+      "createdAt": "2026-05-13T18:11:35.842Z"
+    },
+    {
+      "nome": "LL",
+      "nivel_estrelas": 4,
+      "ativo": true,
+      "id": "auhw3srrk",
+      "createdAt": "2026-05-13T18:11:44.689Z"
+    },
+    {
+      "nome": ";/",
+      "nivel_estrelas": 3,
+      "ativo": true,
+      "id": "j1ngnvqb7",
+      "createdAt": "2026-05-13T18:11:51.393Z"
+    }
+  ],
+  "playerStats": [
+    {
+      "id": "ujqu26pgy",
+      "playerId": "ujqu26pgy",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "p4qlk7hlp",
+      "playerId": "p4qlk7hlp",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "1x2zu3iw0",
+      "playerId": "1x2zu3iw0",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "mid3155q8",
+      "playerId": "mid3155q8",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "tc9grs0g4",
+      "playerId": "tc9grs0g4",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "l7a8mnvlk",
+      "playerId": "l7a8mnvlk",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "xdx1zl4bs",
+      "playerId": "xdx1zl4bs",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "mgo5bd7q0",
+      "playerId": "mgo5bd7q0",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "rv5b9x3v7",
+      "playerId": "rv5b9x3v7",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "tdwrxeksd",
+      "playerId": "tdwrxeksd",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "auhw3srrk",
+      "playerId": "auhw3srrk",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    {
+      "id": "j1ngnvqb7",
+      "playerId": "j1ngnvqb7",
+      "goals": 0,
+      "assists": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "matchesPlayed": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    }
+  ],
+  "peladas": [
+    {
+      "titulo": "FUT B",
+      "data_hora": "2026-05-13T15:15",
+      "local": "ARENA BRB",
+      "status": "agendada",
+      "jogadores_por_time": 5,
+      "inscritos": [],
+      "placar_casa": 0,
+      "placar_visitante": 0,
+      "cronometro_segundos": 0,
+      "cronometro_ativo": false,
+      "config_pagamento_visivel": true,
+      "eventos": [],
+      "id": "asu0cjp6o",
+      "createdAt": "2026-05-13T18:12:32.098Z"
+    }
+  ]
+}
